@@ -229,7 +229,7 @@ html,body{
     width: 50%;
     display: block;
     transition: all 0.3s ease;
-    padding:  1%;
+    padding:  1% 2rem;
     height: 300px;
 
 }
@@ -238,7 +238,7 @@ html,body{
     width: 50%;
     display: block;
     transition: all 0.3s ease;
-    padding:  1%;
+    padding:  1% 2rem;
     height: 300px;
     
 }
@@ -248,7 +248,7 @@ html,body{
     width: 50%;
     display: block;
     transition: all 0.3s ease;
-    padding:  1%;
+    padding:  1% 2rem;
     height: 300px;
     
 }
@@ -257,7 +257,7 @@ html,body{
     width: 50%;
     display: block;
     transition: all 0.3s ease;
-    padding:  1%;
+    padding:  1% 2rem;
     height: 300px;
     
 }
@@ -586,7 +586,25 @@ html,body{
             margin: 0;
             padding: 0;
         }
-
+        .cards-grp p{
+           font-size: 1.3rem;
+           line-height: 2rem;
+        }
+        .about-text p{
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            font-weight: 100;
+        }
+        .about{
+            margin: 2rem 0 ;
+        }
+        .headings{
+            padding: 0;
+        }
+        .school-logo h1{
+            font-size: 5vw;
+        }
+    
         .container{
             flex-direction: column;
         }
@@ -643,6 +661,7 @@ html,body{
         }
         .sub-p{
             border: none;
+            font-size: 1.2rem;
         }
         .sub-p p{
             text-align: center;
@@ -749,8 +768,6 @@ html,body{
     .school-logo{
         gap: 2rem;
     }
-    .school-logo h1{
-        font-size: 1.5rem;
-    }
+    
     
 }
