@@ -31,7 +31,7 @@ html,body{
   justify-content: space-between;
   display: flex;
   align-items: center;
-  background-color: var(--color-darkgreen);
+  background-color: var(--color-red);
 }
 
 .menu ul {
@@ -544,8 +544,8 @@ html,body{
     }
 
     footer {
-        background-color: var(--color-darkgreen);
         color: #fff;
+        background-color: var(--color-red);
         padding: 10px;
         bottom: 0;
         height: 100px;
